@@ -25,6 +25,7 @@ Mocha reads test files that end in Test.js. Under that convention file names sho
 - indexTest.js - tests
 
 
+
 ## Mocha
 A JavaScript test framework that can be run on Node.js or in the browser
 - describe - wraps a grouping of tests
@@ -34,3 +35,15 @@ A JavaScript test framework that can be run on Node.js or in the browser
 - after - execute after running tests
 - afterEach - execute before each test case
 - error - set test to error
+
+## Chai
+An assertion library that pairs with test frameworks like Mocha. Chai has three main assertion styles expect, should, and assert. They all perform the same task.
+
+Example:
+```
+actual.should.equal(expected)
+expect(actual).to.equal(expected)
+assert.equal(actual, expected)
+```
+
+There are some reasons to use one style over another. Should extends from the Object.prototype so it will not work if you need to check for the existence of an object. It also does not work on Internet Explorer. Expect and assert work on all browsers. Both allow for the use of error messages.
