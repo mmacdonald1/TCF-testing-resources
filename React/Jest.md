@@ -41,3 +41,54 @@ describe('manageBand', ()=> {
 
 * Exceptions
   - toThrow - error
+
+
+## Snapshot Testing
+
+Snapshot testing on the first time run takes a snapshot of your code and saves it to a snapshot folder that it creates. The next time you run the test the code will compare the snapshot to the current code and fail if there has been a change and articulate that change.
+
+### Set up for snapshot testing a static component
+For React you will need a package called react-test-renderer.
+
+```
+npm i react-test-renderer
+```
+
+You will need to require React, react-test-renderer, and the file you would like to snapshot test.
+
+```
+import React from 'react';
+import Header from './Header'
+import renderer from 'react-test-renderer'
+
+```
+
+Set up your tests with the describe, it syntax.
+
+```
+describe('Header', ()=>{
+  it('renders correctly', () => {
+
+  });
+})
+```
+Then use react renderer to generate a serializable value for your React tree.
+
+```
+const tree = renderer
+      .create(<Header />)
+      .toJSON();
+```
+
+Expect calls the function that you are testing and in this case we are passing in the tree. Then we will use the matcher .toMatchSnapshot().
+
+```
+describe('Header', ()=>{
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(<Header />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+})
+```
