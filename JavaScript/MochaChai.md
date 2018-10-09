@@ -47,3 +47,6 @@ assert.equal(actual, expected)
 ```
 
 There are some reasons to use one style over another. Should extends from the Object.prototype so it will not work if you need to check for the existence of an object. It also does not work on Internet Explorer. Expect and assert work on all browsers. Both allow for the use of error messages.
+
+Assertions:
+https://devhints.io/chai
