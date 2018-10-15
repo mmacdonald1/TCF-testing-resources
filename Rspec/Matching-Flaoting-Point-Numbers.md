@@ -17,7 +17,7 @@ Instead use the `be_within` matcher when testing floating-point return values. T
       end
     end
 ```
-but this on passed:
+but this one passed:
 
 ```
     describe 'Dish.average_tag_count' do
