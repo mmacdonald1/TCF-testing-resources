@@ -22,3 +22,6 @@ a folder of resources to help TCFs learn testing
   - shows reducers testing and some unit testing with redux
 * Hillary's Jest, Enzyme lecture:
   - code: https://github.com/learn-co-students/dc-web-062518/tree/master/56-testing-in-react
+  
+  ## Other Resources
+  * Student blog on rspec: https://medium.com/@adigitalnative/rails-crud-resource-the-tdd-way-9f1907ac7ca0
