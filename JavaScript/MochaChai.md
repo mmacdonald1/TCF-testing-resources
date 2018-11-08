@@ -22,8 +22,12 @@ make sure your package.json test is set to mocha
 ## File setup
 Mocha reads test files that end in Test.js. Under that convention file names should look like this:
 - index.js - code you are testing
-- indexTest.js - tests
-
+- test - folder containing the test files
+- indexTest.js - tests - in this file import the chai assertion library and the function in your js file that you are tesiting
+```
+const assert = require('chai').assert
+const makeTodo = require('../index.js').makeTodo
+```
 
 
 ## Mocha
@@ -47,3 +51,6 @@ assert.equal(actual, expected)
 ```
 
 There are some reasons to use one style over another. Should extends from the Object.prototype so it will not work if you need to check for the existence of an object. It also does not work on Internet Explorer. Expect and assert work on all browsers. Both allow for the use of error messages.
+
+Assertions:
+https://devhints.io/chai
