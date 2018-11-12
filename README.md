@@ -30,4 +30,19 @@ a folder of resources to help TCFs learn testing
   * Luke Ghenco on React Testing Library: https://medium.com/flatiron-labs/creating-readable-tests-using-react-testing-library-2bd03c49c284
   * RubyGuides Rspec tutorial with examples: https://www.rubyguides.com/2018/07/rspec-tutorial/
   * Student blog on rspec: https://medium.com/@adigitalnative/rails-crud-resource-the-tdd-way-9f1907ac7ca0
+  
+## Links to labs that teach testing
+
+- https://github.com/learn-co-curriculum/rspec-fizzbuzz
+- https://github.com/learn-co-curriculum/intro-to-rspec
+- https://github.com/learn-co-curriculum/sinatra-rspec-intro
+- https://github.com/learn-co-curriculum/intro-to-tdd-rspec-and-learn
+- https://github.com/learn-co-curriculum/ruby-rails-testing
+- https://github.com/learn-co-curriculum/rails-factorygirl-intro
+- https://github.com/learn-co-curriculum/intro-to-capybara
+- https://github.com/learn-co-curriculum/javascript-intro-to-debugging
+- https://github.com/learn-co-curriculum/js-advanced-functions-intro-to-mocha-readme
+- https://github.com/learn-co-curriculum/node-mocha
+- https://github.com/learn-co-curriculum/code-coverage
+- https://github.com/learn-co-curriculum/tips-mod-5-ruby-tests
 
