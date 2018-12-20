@@ -32,6 +32,10 @@ a folder of resources to help TCFs learn testing
 
 - Testing Redux Action Creators, Reducers, & Components
   - code: https://github.com/learn-co-students/dc-web-071618/tree/master/50-react-redux-testing/readit
+  
+- Jake's Jest, Enzyme lecture:
+  - code: https://github.com/learn-co-students/dc-web-091718/tree/master/47-testing-with-jest-and-enzyme
+  - video: https://youtu.be/ss0PlugQq-w
 
 ## Links to blog posts teaching how to test
 
