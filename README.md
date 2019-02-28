@@ -37,6 +37,10 @@ a folder of resources to help TCFs learn testing
   - code: https://github.com/learn-co-students/dc-web-091718/tree/master/47-testing-with-jest-and-enzyme
   - video: https://youtu.be/ss0PlugQq-w
 
+- Bruno's Jest, Enzyme lecture:
+  - code: https://github.com/learn-co-students/dc-web-111918/tree/master/54-testing-with-jest-and-enzyme
+  - video, part 1: https://www.youtube.com/watch?v=4K4z46aWX54&feature=youtu.be
+  - video, part 2: https://www.youtube.com/watch?v=wCpdCjCfnoM&feature=youtu.be
 ## Links to blog posts teaching how to test
 
 - Luke Ghenco on React Testing Library: https://medium.com/flatiron-labs/creating-readable-tests-using-react-testing-library-2bd03c49c284
